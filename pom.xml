@@ -48,13 +48,6 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
-      <exclusions>
-        <exclusion>
-          <!-- Exclude hamcrest-core here, because we have an explicit dependency to hamcrest-library -->
-          <groupId>org.hamcrest</groupId>
-          <artifactId>hamcrest-core</artifactId>
-        </exclusion>
-      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.hamcrest</groupId>
@@ -65,13 +58,6 @@
       <groupId>org.mockito</groupId>
       <artifactId>mockito-core</artifactId>
       <version>1.9.5</version>
-      <exclusions>
-        <exclusion>
-          <!-- Exclude hamcrest-core here, because we have an explicit dependency to hamcrest-library -->
-          <groupId>org.hamcrest</groupId>
-          <artifactId>hamcrest-core</artifactId>
-        </exclusion>
-      </exclusions>
     </dependency>
     <!-- Optional dependencies ... -->
     <dependency>
